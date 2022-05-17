@@ -41,4 +41,4 @@ function memoize(fn) {
     }
 }
 
-const fasterFib = memoize(fib);
+fib = memoize(fib);
